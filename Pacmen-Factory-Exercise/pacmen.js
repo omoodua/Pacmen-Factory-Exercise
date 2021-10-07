@@ -13,7 +13,7 @@ function setToRandom(scale) {
   };
 }
 function Run() {
-  let img = document.getElementById('PacMan');
+  let img = document.getElementById("PacMan");
   let imgWidth = img.width;
   focus = (focus + 1) % 2;
   direction = checkPageBounds(direction, imgWidth, pos, pageWidth );
